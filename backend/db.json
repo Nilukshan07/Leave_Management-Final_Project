@@ -1,0 +1,185 @@
+{
+  "employees": [
+    {
+      "id": "EMP_mWe0K",
+      "employeeId": "EMP_mWe0K",
+      "nic": "2132435465768",
+      "firstName": "Suriya",
+      "lastName": "Nilukshan",
+      "dob": "2000-07-25",
+      "doj": "2024-10-01"
+    },
+    {
+      "id": "EMP_8sJRR",
+      "employeeId": "EMP_8sJRR",
+      "nic": "2323434545",
+      "firstName": "Karthik",
+      "lastName": "Mithu",
+      "dob": "2001-12-09",
+      "doj": "2024-09-11"
+    },
+    {
+      "id": "EMP_OhcOo",
+      "employeeId": "EMP_OhcOo",
+      "nic": "6456554332",
+      "firstName": "Dhanush",
+      "lastName": "Billa",
+      "dob": "1993-06-08",
+      "doj": "2024-06-13"
+    },
+    {
+      "id": "EMP_ruILF",
+      "employeeId": "EMP_ruILF",
+      "nic": "1242523635v",
+      "firstName": "Selvarasa",
+      "lastName": "Ignatious",
+      "dob": "1979-07-04",
+      "doj": "2022-12-14"
+    },
+    {
+      "id": "EMP_FTVcd",
+      "employeeId": "EMP_FTVcd",
+      "nic": "3455664325v",
+      "firstName": "Sekaran",
+      "lastName": "Nitharshan",
+      "dob": "2001-02-09",
+      "doj": "2024-11-13"
+    }
+  ],
+  "users": [
+    {
+      "username": "EMP_mWe0K",
+      "password": "A123",
+      "role": "Employee",
+      "employeeId": "EMP_mWe0K",
+      "id": "EMP_mWe0K"
+    },
+    {
+      "username": "EMP_8sJRR",
+      "password": "Manager123",
+      "role": "Manager",
+      "employeeId": "EMP_8sJRR",
+      "id": "EMP_8sJRR"
+    },
+    {
+      "username": "EMP_OhcOo",
+      "password": "pwd123",
+      "role": "Employee",
+      "employeeId": "EMP_OhcOo",
+      "id": "EMP_OhcOo"
+    },
+    {
+      "username": "EMP_ruILF",
+      "password": "pwd123",
+      "role": "Director",
+      "employeeId": "EMP_ruILF",
+      "id": "EMP_ruILF"
+    },
+    {
+      "id": "EMP_FTVcd",
+      "employeeId": "EMP_FTVcd",
+      "username": "EMP_FTVcd",
+      "password": "pwd123",
+      "role": "Employee"
+    }
+  ],
+  "leaveRequests": [
+    {
+      "id": "a4a4",
+      "employeeId": "EMP_mWe0K",
+      "reason": "Go To Hospital.",
+      "dateFrom": "2024-10-10",
+      "numOfDays": "2",
+      "applicationDate": "2024-10-07",
+      "status": "Approved",
+      "employee": {
+        "id": "EMP_mWe0K",
+        "employeeId": "EMP_mWe0K",
+        "nic": "2132435465768",
+        "firstName": "Suriya",
+        "lastName": "Nilukshan",
+        "dob": "2000-07-25",
+        "doj": "2024-10-01"
+      },
+      "processedDate": "2024-10-30"
+    },
+    {
+      "id": "99dd",
+      "employeeId": "EMP_mWe0K",
+      "reason": "School Trip",
+      "dateFrom": "2024-10-17",
+      "numOfDays": "1",
+      "applicationDate": "2024-10-01",
+      "status": "Rejected",
+      "employee": {
+        "id": "EMP_mWe0K",
+        "employeeId": "EMP_mWe0K",
+        "nic": "2132435465768",
+        "firstName": "Suriya",
+        "lastName": "Nilukshan",
+        "dob": "2000-07-25",
+        "doj": "2024-10-01"
+      },
+      "processedDate": "2024-10-30",
+      "rejectionReason": "Not finish your Work Because Tomorow I Should submit project"
+    },
+    {
+      "id": "dae4",
+      "employeeId": "EMP_OhcOo",
+      "reason": "Feaver",
+      "dateFrom": "2024-11-09",
+      "numOfDays": "1",
+      "applicationDate": "2024-11-07",
+      "status": "Approved",
+      "employee": {
+        "id": "EMP_OhcOo",
+        "employeeId": "EMP_OhcOo",
+        "nic": "6456554332",
+        "firstName": "Dhanush",
+        "lastName": "Billa",
+        "dob": "1993-06-08",
+        "doj": "2024-06-13"
+      },
+      "processedDate": "2024-11-03"
+    },
+    {
+      "id": "448a",
+      "employeeId": "EMP_mWe0K",
+      "reason": "Go to Trip",
+      "dateFrom": "2024-11-21",
+      "numOfDays": "2",
+      "applicationDate": "2024-10-15",
+      "status": "Rejected",
+      "employee": {
+        "id": "EMP_mWe0K",
+        "employeeId": "EMP_mWe0K",
+        "nic": "2132435465768",
+        "firstName": "Suriya",
+        "lastName": "Nilukshan",
+        "dob": "2000-07-25",
+        "doj": "2024-10-01"
+      },
+      "processedDate": "2024-11-10",
+      "rejectionReason": "Work Important"
+    },
+    {
+      "id": "aa01",
+      "employeeId": "EMP_FTVcd",
+      "reason": "Go To Hospital for Clinic",
+      "dateFrom": "2024-11-12",
+      "numOfDays": "2",
+      "applicationDate": "2024-11-03",
+      "status": "Approved",
+      "employee": {
+        "id": "EMP_FTVcd",
+        "employeeId": "EMP_FTVcd",
+        "nic": "3455664325v",
+        "firstName": "Sekaran",
+        "lastName": "Nitharshan",
+        "dob": "2001-02-09",
+        "doj": "2024-11-13"
+      },
+      "processedDate": "2024-11-09"
+    }
+  ]
+}
